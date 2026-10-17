@@ -1,0 +1,20 @@
+sudo pacman -S bluez bluez-utils
+sudo systemctl enable --now bluetooth
+
+systemctl status bluetooth
+
+
+rfkill list
+
+## if the output is like:
+			--> Soft blocked: yes
+			--> Hard blocked: no
+
+sudo rfkill unblock bluetooth
+sudo systemctl restart bluetooth
+
+
+bluetoothctl
+	> power on
+	> show
+	> scan on

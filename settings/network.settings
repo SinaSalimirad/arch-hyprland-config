@@ -1,0 +1,5 @@
+sudo pacman -S iw
+
+sudo iw dev wlp2s0 set power_save off
+
+iw dev wlp2s0 get power_save

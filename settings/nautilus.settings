@@ -1,0 +1,8 @@
+sudo pacman -S gvfs gvfs-afc gvfs-dnssd gvfs-goa gvfs-gphoto2 gvfs-mtp
+gvfs-nfs gvfs-onedrive gvfs-smb gvfs-wsdd --needed 
+
+sudo pacman -S udisks2 ntfs-3g imagemagick nautilus-image-converter 
+
+sudo systemctl enable --now udisks2.service
+
+nautilus -q
