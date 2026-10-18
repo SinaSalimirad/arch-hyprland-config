@@ -11,7 +11,7 @@ xf86-video-ati xf86-video-nouveau lib32-vulkan-intel
 
 hyprland kitty hyprpolkitagent nautilus xdg-desktop-portal-hyprland
 quickshell wl-clipboard dust hyprpaper gum sddm hyprshutdown hyprlock
-hyprsunset hypridle grim slurp wl-clip-persist cliphist rofi fzf
+hyprsunset hypridle grim slurp wl-clip-persist cliphist rofi fzf fuseiso
 
 flatpak gnome-software
 
@@ -45,3 +45,6 @@ tmux fastfetch zsh
 
 gvfs gvfs-afc gvfs-dnssd gvfs-goa gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-onedrive gvfs-smb gvfs-wsdd
 udisks2 imagemagick nautilus-image-converter ntfs-3g
+
+
+virtualbox virtualbox-guest-iso virtualbox-ext-vnc
